@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.master {
+  background: linear-gradient(#77b6fa, #4f99e7);
+  align-items: center;
+  border-radius: 40px;
+  width: 375px;
+  padding: 16px;
+  height: 780px;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding-top: 16px;
+
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.master h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.card {
+  width: 330px;
+  margin: 0 auto;
+  background: #fff;
+  margin-bottom: 16px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+
+  -webkit-box-shadow: 0 7px 10px -10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 7px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 7px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 7px 20px -10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 7px 20px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 7px 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-picture {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  margin: 8px;
+}
+.user-picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+.image-container {
+  margin-top: 32px;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+
+.profile-name, .profile-city {
+  color: #000;
+  text-decoration: unset !important;
+  margin: 0;
+}
+.profile-name {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.profile-city {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+Link {
+  text-decoration: unset !important;
+}
+
+.info-container {
+  text-align: center;
+  display: block;
+}
+ 
+.biology {
+  display: flex;
+  flex-direction: row;
+}
+.biology div {
+  flex: 1;
+}
+
+.biology, .contact, .location, .profile {
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.category {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 8px;
+}
